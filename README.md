@@ -19,6 +19,9 @@ The app creates endpoints to consume the data using Django framework.
 
 This project runs in Docker and use Django
 
+* Run this docker command and Django will ask for migrate:
+`docker-compose up`
+
 * Migrate all the changes to build your Database:
 `docker-compose run web python manage.py migrate`
 
